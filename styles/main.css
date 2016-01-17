@@ -9,7 +9,7 @@ header{
 }
 
 .content{
-  min-height: 60vh;
+ 
   text-align: center;
   padding-top: 45px;
 }
@@ -30,6 +30,17 @@ header{
   line-height: 30px;
   border-left: 1px solid;
   letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+
+.writtenby{
+  text-align: right;
+  width: 50%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-style: italic;
+  font-size: 15px;
 }
 
 .controls{
