@@ -1,0 +1,61 @@
+body{
+  padding : 15px;
+  background: #4B868A;
+  color: white;
+}
+
+header{
+  font-size:  12px;
+  color: snow;
+}
+
+.content{
+ 
+  text-align: center;
+  padding-top: 45px;
+}
+
+.poem-title{
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+.poem-text{
+  text-align: left;
+  width: 50%;
+  margin: auto;
+  padding-left: 15px;
+  margin-top: 45px;
+  line-height: 30px;
+  border-left: 1px solid;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+
+.writtenby{
+  text-align: right;
+  width: 50%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.controls{
+  margin-top: 15px;
+  width: 250px;
+  margin: auto;
+  text-align: center;
+}
+
+.controls .control{
+  display: inline-block;
+}
+
+.control.prev, .control.next{
+  cursor: pointer;
+  text-decoration: underline;
+}
