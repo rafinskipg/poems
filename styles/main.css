@@ -27,10 +27,13 @@ header{
   margin: auto;
   padding-left: 15px;
   margin-top: 45px;
-  line-height: 30px;
   border-left: 1px solid;
-  letter-spacing: 3px;
   margin-bottom: 40px;
+}
+
+.poem-text .columns .column{
+  width: 50%;
+  float: left;
 }
 
 .writtenby{

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: break;
+    src: url("/fonts/master_of_break.ttf");
+}
+
+@font-face {
+    font-family: destroy;
+    src: url("/fonts/Destroy x.ttf");
+}
+
+
+@font-face {
+    font-family: john;
+    src: url("/fonts/DK John Brown.otf");
+}
+
+
+@font-face {
+    font-family: berry;
+    src: url("/fonts/Berry Rotunda.ttf");
+}
+
+@font-face {
+    font-family: typewritter;
+    src: url("/fonts/TravelingTypewriter.ttf");
+}
