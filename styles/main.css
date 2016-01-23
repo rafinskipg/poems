@@ -61,3 +61,13 @@ header{
   cursor: pointer;
   text-decoration: underline;
 }
+
+/* Decorators */
+.divisor {
+  margin: 15px;
+  border-bottom: 1px solid black;
+}
+
+.divisor.dashed{
+  border-bottom: 1px dashed black;
+}
