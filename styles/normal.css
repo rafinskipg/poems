@@ -1,0 +1,9 @@
+body{
+  padding : 15px;
+  background: beige;
+}
+
+.poem-text{
+  line-height: 30px;
+  letter-spacing: 3px;
+}
