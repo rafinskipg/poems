@@ -14,6 +14,8 @@ header{
   padding-top: 45px;
 }
 
+/* Poem */
+
 .poem-title{
   margin-bottom: 30px;
   font-weight: bold;
@@ -35,6 +37,14 @@ header{
   width: 50%;
   float: left;
 }
+
+.poem-text img{
+  margin-top: 30px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+ 
+/* Footer */
 
 .writtenby{
   text-align: right;
