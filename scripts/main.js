@@ -36,6 +36,16 @@ function bindControlsActions(){
     showPoem(poemIndex + 1);
   }
 
+  window.addEventListener('keyup', function(e){
+    if(e.which === 37 || e.which === 39){
+      if(e.which === 37){
+        showPoem(poemIndex - 1);
+      }else{
+        showPoem(poemIndex + 1);
+      }
+    }
+  });
+
 }
 
 window.onload = function(){
