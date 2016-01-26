@@ -41,7 +41,6 @@ header{
 .poem-text img{
   margin-top: 30px;
   width: 100%;
-  margin-bottom: 30px;
 }
  
 /* Footer */
@@ -80,4 +79,12 @@ header{
 
 .divisor.dashed{
   border-bottom: 1px dashed black;
+}
+
+/* Floaters */
+.right{
+  float: right;
+}
+.left{
+  float: left;
 }
