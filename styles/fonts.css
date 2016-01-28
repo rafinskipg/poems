@@ -24,3 +24,12 @@
     font-family: typewritter;
     src: url("/fonts/TravelingTypewriter.ttf");
 }
+
+@font-face {
+    font-family: orangejuice;
+    src: url("/fonts/orange juice 2.0.ttf");
+}
+@font-face {
+    font-family: moonflower;
+    src: url("/fonts/Moon Flower Bold.ttf");
+}
