@@ -1,0 +1,44 @@
+.welcome{
+  
+}
+
+.welcome .content{
+  width : 70%;
+  margin: auto;
+  height: 300px;
+}
+
+.author-image{
+  border-radius: 300px;
+  overflow: hidden;
+  float: left;
+  height: 200px;
+  width: 200px;
+  
+}
+
+.author-image img{
+  max-width: 100%;
+}
+
+.author-info{
+  float: left;
+  margin-left: 100px;
+  padding-top: 40px;
+  font-size: 15px;
+  font-family: typewritter
+}
+
+.author-info a {
+  color : black;
+}
+
+.libertad{
+  font-size: 100px;
+  font-family: barcode;
+  line-height: 200px;
+  text-align: center;
+  text-shadow: 9px 6px 4px rgb(234, 0, 0);
+  transition: all linear 500ms;
+}
+
