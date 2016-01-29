@@ -29,7 +29,32 @@
     font-family: orangejuice;
     src: url("/fonts/orange juice 2.0.ttf");
 }
+
 @font-face {
     font-family: moonflower;
     src: url("/fonts/Moon Flower Bold.ttf");
+}
+
+@font-face {
+    font-family: alwaysheart;
+    src: url("/fonts/Always In My Heart.ttf");
+}
+
+@font-face {
+    font-family: darleston;
+    src: url("/fonts/Darleston.otf");
+}
+
+@font-face {
+    font-family: highvoltage;
+    src: url("/fonts/HighVoltage Rough.ttf");
+}
+
+@font-face {
+    font-family: barcode;
+    src: url("/fonts/BarcodeFont.ttf");
+}
+@font-face {
+    font-family: september;
+    src: url("/fonts/September Mornings.ttf");
 }
