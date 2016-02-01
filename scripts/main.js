@@ -5,12 +5,16 @@ var prevButton, nextButton;
 var currentPoemDisplayCounter, totalPoemsDisplayCounter;
 
 function showPoem(index){
-  if(index >= 0 && index < poems.length){
-    poemIndex = index;
-    poemTitle.innerText = poems[index].querySelector('.title').innerText
-    poemBody.innerHTML = poems[index].querySelector('.content').innerHTML
-    updatePoemInfo(poemIndex);
+  if (index < 0){
+    index = poems.length - 1;
+  }else if(index >= poems.length){
+    index = 0;
   }
+
+  poemIndex = index;
+  poemTitle.innerText = poems[index].querySelector('.title').innerText
+  poemBody.innerHTML = poems[index].querySelector('.content').innerHTML
+  updatePoemInfo(poemIndex);
 }
 
 function initCounter(){
