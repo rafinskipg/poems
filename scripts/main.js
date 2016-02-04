@@ -14,7 +14,23 @@ function showPoem(index){
   poemIndex = index;
   poemTitle.innerText = poems[index].querySelector('.title').innerText
   poemBody.innerHTML = poems[index].querySelector('.content').innerHTML
+  clearStyles(poemBody);
+  copyStyles(poems[index], poemBody);
   updatePoemInfo(poemIndex);
+}
+
+function clearStyles(element){
+  element.removeAttribute('style')
+}
+
+function copyStyles(from, to){
+  for (var i= from.style.length; i-->0;) {
+    var name = from.style[i];
+    to.style.setProperty(name,
+        from.style.getPropertyValue(name),
+        priority = from.style.getPropertyPriority(name)
+    );
+  }
 }
 
 function initCounter(){
