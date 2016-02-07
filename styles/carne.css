@@ -1,0 +1,17 @@
+body{
+  padding : 15px;
+  font-family: typewritter;
+  background: rgb(47, 32, 32);
+  color: rgba(234, 139, 139, 0.86);
+}
+
+.poem-text{
+  width: 300px;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+.writtenby{
+  width: 200px;
+  padding-top: 15px;
+}
