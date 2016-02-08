@@ -31,7 +31,16 @@ function applyTextShadow(item, textShadowValues){
   item.style.textShadow = 'blue ' + textShadowValues.join('px ') + 'px';
 }
 
+function showStars(){
+  var canvas = document.getElementById('canvas');
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+  
+}
+
 window.onload = function(){
   libertad = document.querySelector('.libertad');
   bindMouseHover(libertad, initialShadow);
+  showStars();
 }
