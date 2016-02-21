@@ -34,6 +34,15 @@ header{
   margin-bottom: 40px;
 }
 
+.poem-text .columns:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  }
+
 .poem-text .columns .column{
   width: 50%;
   float: left;
