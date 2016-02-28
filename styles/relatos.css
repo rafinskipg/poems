@@ -1,0 +1,33 @@
+body {
+  background: rgb(255, 255, 255);
+  color: #000000;
+  font-family: typewritter;
+}
+
+header{
+  color: #000000;
+}
+
+.poem-text{
+  font-size: 17px;
+}
+
+.poem-title{
+  margin-bottom: 30px;
+  /* font-weight: bold; */
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-family: typewritter;
+}
+
+.page{
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom : 1px solid black;
+  text-align: justify;
+}
+
+.page-number{
+  text-align: center;
+  font-size: 10px;
+}
