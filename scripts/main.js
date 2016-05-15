@@ -69,10 +69,18 @@ function bindControlsActions(){
 }
 
 window.onload = function(){
-  poems = document.querySelectorAll('.poem');
+  var temPoems = document.querySelectorAll('.poem');
   poemTitle = document.querySelector('.poem-title')
   poemBody = document.querySelector('.poem-text')
   
+  poems = [];
+  
+  for(var i = 0; i<temPoems.length; i++){
+    poems[i] = temPoems[i]
+  }
+
+  poems.reverse();
+
   initCounter();
   showPoem(0);
   bindControlsActions();
