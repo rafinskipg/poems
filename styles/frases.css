@@ -1,0 +1,14 @@
+body{
+  background: white;
+  color: black;
+  font-family: typewritter;
+}
+
+header{
+  color: black;
+}
+
+.poem-text{
+  font-size: 27px;
+  width: 75%;
+}
