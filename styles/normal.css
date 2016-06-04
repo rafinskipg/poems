@@ -3,6 +3,10 @@ body{
   font-family: typewritter;
 }
 
+.poem-title{
+  font-size: 22px;
+}
+
 .poem-text{
   line-height: 30px;
   letter-spacing: 3px;
