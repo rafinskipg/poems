@@ -11,4 +11,14 @@ header{
 .poem-text{
   font-size: 27px;
   width: 75%;
+   margin-bottom: 0;
+}
+
+.quote{
+  font-style: italic;
+   padding-left: 20px;
+}
+
+.writtenby{
+  padding-top: 0;
 }
